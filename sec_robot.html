@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Project showcase by Robert Josephson" />
+    <meta name="author" content="Robert Josephson" />
+    <meta name="copyright" content="&copy; 2025 Robert Josephson. All rights reserved." />
+    <meta name="robots" content="index, follow" />
+
+    <title>SEC Robot</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="pro-top">
+            <div class="pro-textbox1">
+                <div class="pro-textbox-inner">
+                    <h2>SEC Robot</h2>
+                    <p>A robot designed for IEEE Southeast Conference Hardware Competition. The robot
+                        was designed to be to complete task such as picking up and moving objects in given areas.
+                        The course had a zipline that the robot had to traverse and a ramp that the robot had to 
+                        climb to get to the zipline. I was the hardware lead for the project. 
+                        I worked on long side of the hardware team to 3D model the full robotic design including
+                        all sub-sections. After the 3D modeling was done I created a Bill of Materials (BOM)
+                        for the metal and other components needed to build the robot. I lended a hand in 
+                        the electrical testing which involved motors and buck converters. During the design
+                        process I cut down aluminum into smaller protions using a band saw and drimel tool plus
+                        I drilled holes into the aluminum for the drive train. Worked on the installation of sheet metal
+                        for the layers.
+                    </p>
+                </div>
+            </div>
+            
+
+            <div class="pro-img">
+                <img src="images/sec-bot/full-bot.jpg"> 
+            </div>
+
+        </div>
+
+        <div class="pro-mid">
+             <div class="pro-demo-wrapper" id="pro-demo-vid">
+                 <iframe 
+                    src="https://www.youtube.com/embed/tWCNh2gaKNg"
+                    frameborder="0" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <div class="pro-textbox2">
+                <h2>Demo</h2>
+                <p>Short clip showing robot mobility testing.</p>
+            </div>
+        </div>
+
+        <div class="pro-bot">
+            <div class="gallery-header" onclick="toggleGallery(this)">
+                <h2>Gallery</h2>
+            </div>
+            <div class="pro-gallery-sec">
+                <div class="pro-gallery">
+                    <img src="images/sec-bot/dt-adj.png">
+                    <img src="images/sec-bot/dt-nonadj.png">
+                    <img src="images/sec-bot/under-bot.png">
+                    <img src="images/sec-bot/bot-sim.png">
+                    <img src="images/sec-bot/zipline-mech.png">
+                    <img src="images/sec-bot/bottom-bot.jpg">
+                    <img src="images/sec-bot/buck-con.jpg">
+                    <img src="images/sec-bot/re-wiring.jpg">
+                    <img src="images/sec-bot/full-sec-bot.jpg">
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p style="color: white; text-align: center;">&copy; 2025 Robert Josephson. All rights reserved. Unathorized use or reproduction is prohibited.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Robert Josephson" />
+    <meta name="author" content="Robert Josephson" />
+    <meta name="copyright" content="&copy; 2025 Robert Josephson. All rights reserved." />
+    <meta name="robots" content="index, follow" />
+    
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <section class="home-bg">
+        <svg class="poly-lines" viewBox="0 0 1000 1000" preserveAspectRatio="none">
+            <polyline
+                points="-300,-100 900,500 -300,1140"
+                class="line line-main"
+            />
+
+            <polyline
+                points="-300,100 700,500 -300,940"
+                class="line line-secondary"
+            />
+        </svg>
+    </section>
+        <header class="navbar">
+            <a href="index.html" class="brand">
+                <img src="assets/logo.svg" alt="RJ" class="logo">
+                <span>Robert J</span>
+            </a>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="about.html">My Journey</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="workshopcave.html">Workshops</a></li>
+                </ul>
+            </nav>
+
+            <div class="socials-menu">
+                <button class="social-switch">
+                    <svg class="arrow"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2">
+
+                        <path d="M15 18l-8-6 8-6"/>
+                    </svg>
+                </button>
+
+                <ul class="social-links">
+                    <li><a href="https://github.com" ><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </header>
+
+    <main>
+        <div class="main-img">
+                    <div class="img">
+                        <img src="images/profile.jpeg" width="200" height="150"/>
+                    </div>
+                <div class="main-txt">
+                    <h1>Hi there, I'm Robert!</h1>
+                    <p>I am a Computer Engineer with a passion for learning and growing in medical technology. 
+                        I got interested in computer vision applications and medical simulations through projects
+                        as well as various workshops.
+                    </p>
+
+                    <a href="#explore" class="scroll-link">
+                        Explore More
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </a> 
+                </div>
+        </div>
+
+        <section id="explore">
+            <div class="box left">
+                <h1>Reflection</h1>
+                <p>Growing up I played a lot of video games like every normal kid does until one day 
+                    I thought about what hardware was inside my gaming console. What kind of hardware is used 
+                    and how is it designed? This lead to my pursuit of my Computer Engineering degree at
+                    the University of Central Florida (UCF) and my passion for technology advancements...  
+                </p>
+                <br><a href="about.html">Read More
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="box right">
+                <h1>Projects</h1>
+                <p>Over the years I had many projects from club involved to personal and even research projects.
+                    My projects varied from CAD modeling, simulations, robotics, and computer vision applications.
+                    Check out the demo videos, photos and descriptions of my projects...
+                </p>
+                <br><a href="projects.html">View Projects
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="box left">
+                <h1>Workshops</h1>
+                <p>During my time at UCF I attended many workshops and even held a few myself. 
+                    The workshops I attended were on topics such as Verilog, Arduino, Soldering, 
+                    I2C/UART serial protocols and more. I also held workshops on I2C/UART protocols 
+                    and computer vision applications...
+                </p>
+                <br><a href="workshopcave.html">View Workshops
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p style="color: white; text-align: center;">&copy; 2025 Robert Josephson. All rights reserved. 
+            Unathorized use or reproduction is prohibited.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

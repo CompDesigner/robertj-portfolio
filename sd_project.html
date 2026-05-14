@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Project showcase by Robert Josephson" />
+    <meta name="author" content="Robert Josephson" />
+    <meta name="copyright" content="&copy; 2025 Robert Josephson. All rights reserved." />
+    <meta name="robots" content="index, follow" />
+
+    <title>SD Project</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="pro-top">
+            <div class="pro-textbox1">
+                <div class="pro-textbox-inner">
+                    <h2>ISPY</h2>
+                    <p>This was my senior design project that I worked on
+                        with a team of four other engineering students. We desiged a security system
+                        that is harder to hack, wireless, and not reliant on the internet.
+                        The idea was to have a CMOS sensor designed with a custom lens
+                        that would be able to take a larger field view than a normal camera, 
+                        detect how many people were in a room and transmit it over free-space optical
+                        communication. I designed the computer vision system that would
+                        read the live video feed from the CMOS sensor and detect
+                        how many people were in the room. I used YOLO verison 11 classifcation to narrow
+                        down detection to just people and then used a custom algorithm to count
+                        how many people were in the room. I also implemented YOLO object tracking
+                        to make the counter more accurate by tracking individuals walking in and out
+                        of frame. I had enough time to make the visual aspect similar to a real security
+                        camera feed with timestamp plus counter overlay and grayscaled video.   
+                    </p>
+                </div>
+            </div>
+            
+
+            <div class="pro-img">
+                <img src="images/sd/sd-test.png"> 
+            </div>
+
+        </div>
+
+        <div class="pro-mid">
+            <div class="pro-demo-wrapper" id="pro-demo-vid">
+                 <iframe 
+                    src="https://www.youtube.com/embed/Ikax2n9PCNg"
+                    frameborder="0" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <div class="pro-textbox2">
+                <h2>Demo</h2>
+                <p>Presentation of our full project with all sub-sections working together.</p>
+            </div>
+        </div>
+
+        <div class="pro-bot">
+            <div class="gallery-header" onclick="toggleGallery(this)">
+                <h2>Gallery</h2>
+            </div>
+            <div class="pro-gallery-sec">
+                <div class="pro-gallery">
+                    <img src="images/sd/first-page.png">
+                    <img src="images/sd/sec-page.png">
+                    <img src="images/sd/Hardware Diagram.jpg">
+                    <img src="images/sd/Software Flowchart.jpg">
+                    <img src="images/sd/Case Diagram.jpg">
+                    <img src="images/sd/first-proto.png">
+                    <img src="images/sd/sec-proto.png">
+                    <img src="images/sd/final-proto.png">
+                    <img src="images/sd/person-det.png">
+                    <img src="images/sd/phone-det.png">
+                    <img src="images/sd/overall-design.jpg">
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p style="color: white; text-align: center;">&copy; 2025 Robert Josephson. All rights reserved. Unathorized use or reproduction is prohibited.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>

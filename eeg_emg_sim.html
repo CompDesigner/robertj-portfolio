@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Project showcase by Robert Josephson" />
+    <meta name="author" content="Robert Josephson" />
+    <meta name="copyright" content="&copy; 2025 Robert Josephson. All rights reserved." />
+    <meta name="robots" content="index, follow" />
+
+    <title>EEG/EMG simulation</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+     <header class="navbar">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="pro-top">
+            <div class="pro-textbox1">
+                <div class="pro-textbox-inner">
+                    <h2>EEG/EMG Sim</h2>
+                    <p>A simulation of EEG and EMG signals for research into neural interfacing.
+                        I was able to create a realistic simulation of EEG and EMG signals 
+                        using MATLAB. This project involved looking into the characteristics
+                        of both signals and how they can be used for neural interfacing applications.
+                        I started with researching the properties of EEG and EMG signals,
+                        including their frequency ranges, amplitudes and noise. I then used
+                        MATLAB to generate synthetic EEG and EMG signals based on these properties.
+                        The simulation includes parameters that can be adjusted to mimic 
+                        different conditions, such as different signal patterns based on stronger emotions
+                        or muscle movements. 
+
+                        Modifications: I look forward to linking the two simulations together to 
+                        see what happens when you change EEG signals and how it affects EMG signals. I also plan
+                        to design a 3D arm model (robotic arm) that can be controlled by the 
+                        simulated EMG signal and see how changing the EEG signal affects the movement of the arm. 
+                    </p>
+                </div>
+            </div>
+            
+
+            <div class="pro-img">
+                <img src="images/eeg-sim/norm-eeg.png"> 
+            </div>
+
+        </div>
+
+        <div class="pro-mid">
+            <div class="pro-demo-wrapper" id="pro-demo-vid">
+                 <iframe 
+                    src="https://www.youtube.com/embed/uRJpMnjap6w"
+                    frameborder="0" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <div class="pro-textbox2">
+                <h2>Demo</h2>
+                <p>The video shows the EEG/EMG simulation in action. It provides context to each signal
+                    and how they can be modified or changed to mimic different conditions.
+                </p>
+            </div>
+        </div>
+
+        <div class="pro-bot">
+            <div class="gallery-header" onclick="toggleGallery(this)">
+                <h2>Gallery</h2>
+            </div>
+            <div class="pro-gallery-sec">
+                <div class="pro-gallery">
+                    <img src="images/eeg-sim/med-amp.png">
+                    <img src="images/eeg-sim/high-amp.png">
+                    <img src="images/eeg-sim/no-noise.png">
+                    <img src="images/eeg-sim/psd.png">
+                    <img src="images/eeg-sim/spec.png">
+                    <img src="images/eeg-sim/bpf.png">
+                    <img src="images/eeg-sim/norm-emg.png">
+                    <img src="images/eeg-sim/freq-spec1.png">
+                    <img src="images/eeg-sim/freq-spec2.png">
+                    <img src="images/eeg-sim/gamma-spike.png">
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p style="color: white; text-align: center;">&copy; 2025 Robert Josephson. All rights reserved. Unathorized use or reproduction is prohibited.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>

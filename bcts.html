@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Project showcase by Robert Josephson" />
+    <meta name="author" content="Robert Josephson" />
+    <meta name="copyright" content="&copy; 2025 Robert Josephson. All rights reserved." />
+    <meta name="robots" content="index, follow" />
+
+    <title>BCTS</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+     <header class="navbar">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="pro-top">
+            <div class="pro-textbox1">
+                <div class="pro-textbox-inner">
+                    <h2>BCTS</h2>
+                    <p>I worked along side the project lead to plan and design a system that
+                        would test the coagulation levels in a person's blood. The system
+                        would use a microcontroller that would activate a dropper to add 
+                        thermoplastin to a blood sample and then use a camera to monitor the 
+                        copper ball that is placed in the blood sample to determine the 
+                        coagulation levels. The microcontroller would also control a vibration motor
+                        under a plated surface were the blood sample is placed. The system would have 
+                        a display that shows the results of the test. We created a custome PCB for the 
+                        switch board to give power to the device. We made a rough draft of a Bill of Materials (BOM). 
+                        I helped 3D model the wall for the switch board and the LCD display as well as the clips for 
+                        the display to slide into.  
+                    </p>
+                </div>
+            </div>
+            
+
+            <div class="pro-img">
+                <img src="images/bcts/bcts-case.png">
+            </div>
+
+        </div>
+
+        <div class="pro-mid">
+            <div class="pro-demo-wrapper" id="pro-demo-vid">
+                 <iframe 
+                    src="https://www.youtube.com/embed/YUG5zKXtSao"
+                    frameborder="0" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <div class="pro-textbox2">
+                <h2>Demo</h2>
+                <p>Demostration of the BCTS device 3D model.</p>
+            </div>
+        </div>
+
+        <div class="pro-bot">
+            <div class="gallery-header" onclick="toggleGallery(this)">
+                <h2>Gallery</h2>
+            </div>
+            <div class="pro-gallery-sec">
+                <div class="pro-gallery">
+                    <img src="images/bcts/bcts-idea.jpg">
+                    <img src="images/bcts/bcts-device.jpg">
+                    <img src="images/bcts/pcb-pos.jpg">
+                    <img src="images/bcts/dropper-mech.jpg">
+                    <img src="images/bcts/motor-opening.jpg">
+                    <img src="images/bcts/switch-schem.jpg">
+                    <img src="images/bcts/pump.jpg">
+                    <img src="images/bcts/bcts-front.png">
+                    <img src="images/bcts/bcts-top.png">
+                    <img src="images/bcts/blood-vial.png">
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p style="color: white; text-align: center;">&copy; 2025 Robert Josephson. All rights reserved. Unathorized use or reproduction is prohibited.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>

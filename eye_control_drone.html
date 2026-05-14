@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Project showcase by Robert Josephson" />
+    <meta name="author" content="Robert Josephson" />
+    <meta name="copyright" content="&copy; 2025 Robert Josephson. All rights reserved." />
+    <meta name="robots" content="index, follow" />
+
+    <title>Eye Control Drone</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+     <header class="navbar">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="pro-top">
+            <div class="pro-textbox1">
+                <div class="pro-textbox-inner">
+                    <h2>Eye Control Drone</h2>
+                    <p>This project was designed for controlling a drone
+                        using eye motions. The code utilizies Mediapipe's iris tracking capabilities to 
+                        capture the user's iris movements and translate them into control commands which are displayed
+                        on the screen as yaw and pitch angles. The system is designed
+                        to allow users to control a drone hands-free and allow those
+                        with limited mobility to operate a drone.
+                    </p>
+                </div>
+            </div>
+            
+
+            <div class="pro-img">
+                <img src="images/eye-control/eye-con.png"> 
+            </div>
+
+        </div>
+
+        <div class="pro-mid">
+             <div class="pro-demo-wrapper" id="pro-demo-vid">
+                 <iframe 
+                    src="https://www.youtube.com/embed/fPilnyBf-Zo"
+                    frameborder="0" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <div class="pro-textbox2">
+                <h2>Demo</h2>
+                <p>The demo demonstrates the eye control drone system in action showing 
+                    the detection of the user's iris movements and the control commands
+                    reflecting those movements. The video showcases the potential of eye tracking 
+                    technology for hands-free control of drones.
+                </p>
+            </div>
+        </div>
+
+        <div class="pro-bot">
+            <div class="gallery-header" onclick="toggleGallery(this)">
+                <h2>Gallery</h2>
+            </div>
+            <div class="pro-gallery-sec">
+                <div class="pro-gallery">
+                    <img src="images/eye-control/functions.png">
+                    <img src="images/eye-control/landmarking.png">
+                    <img src="images/eye-control/controls.png">
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p style="color: white; text-align: center;">&copy; 2025 Robert Josephson. All rights reserved. Unathorized use or reproduction is prohibited.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>

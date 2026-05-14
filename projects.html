@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Project showcase by Robert Josephson" />
+    <meta name="author" content="Robert Josephson" />
+    <meta name="copyright" content="&copy; 2025 Robert Josephson. All rights reserved." />
+    <meta name="robots" content="index, follow" />
+
+    <title>Projects</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <a href="index.html" class="brand">
+                <img src="assets/logo.svg" alt="RJ" class="logo">
+                <span>Robert J</span>
+        </a>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="about.html">My Journey</a></li>
+                <li><a href="workshopcave.html">Workshops</a></li>
+            </ul>
+        </nav>
+    </header>
+          
+    <main>
+        <div class="project-contentbox">
+            <h3>Project Exploration</h3>
+            <p>
+                Here you can find a collection of my projects from Personal Projects, Club Projects, and Research Projects.
+                Each project highlights the skills and experiences in various areas of computer engineering as well as technology.
+                There are designs, simulations and applications that display each projects purpose and functionality.
+                Feel free to explore and learn more about the work I've done!
+            </p>
+        </div>
+
+        <div class="border"></div>
+        <div class="section-header">
+            <h3>Personal Projects</h3>
+        </div>
+        <section class = "project-section">
+            <div class = "project-header" onclick="toggleSection(this)">
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="project-grid">
+                <div class="project-slot"
+                    style="background-image: url('images/seizer-det/seizer-det.png');"
+                    onclick="window.location.href='seizure_detection.html'">
+
+                    <div class="slot-content">
+                        <h3 class="project-title">Seizure Detection</h3>
+                        <p class="desc">Python-based seizure detection program using Mediapipe</p>
+                    </div>
+                </div>
+
+                <div class="project-slot"
+                    style="background-image: url('images/eye-control/eye-con.png');"
+                    onclick="window.location.href='eye_control_drone.html'">
+
+                    <div class="slot-content">
+                        <h3 class="project-title">Eye Controlled Drone</h3>
+                        <p class="desc">Eye-tracking python program for drone control</p>
+                    </div>
+                </div>
+
+                <div class="project-slot"
+                    style="background-image: url('images/rc-design/rc.png');"
+                    onclick="window.location.href='rc_car.html'">
+
+                    <div class="slot-content">
+                        <h3 class="project-title">RC Car Cover</h3>
+                        <p class="desc">Lightening McQueen RC Car Cover</p>
+                    </div>
+                </div>
+
+                <div class="project-slot"
+                    style="background-image: url('images/sd/sd-test.png');"
+                    onclick="window.location.href='sd_project.html'">
+
+                    <div class="slot-content">
+                        <h3 class="project-title">Senior Design Project</h3>
+                        <p class="desc">Free-Space Optical Security System</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="section-header">
+            <h3>Club Projects</h3>
+        </div>
+        <section class = "project-section">
+            <div class = "project-header" onclick="toggleSection(this)">
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="project-grid">
+                <div class="project-slot"
+                    style="background-image: url('images/sec-bot/full-bot.jpg');"
+                    onclick="window.location.href='sec_robot.html'">
+
+                    <div class="slot-content">
+                        <h3 class="project-title">SouthEastern Conference Robot</h3>
+                        <p class="desc">IEEE SouthEast Conference Hardware Competition Robot</p>
+                    </div>
+                </div>
+
+                <div class="project-slot"
+                    style="background-image: url('images/bcts/bcts-case.png');"
+                    onclick="window.location.href='bcts.html'">
+
+                    <div class="slot-content">
+                        <h3 class="project-title">Blood Coagulation Testing System</h3>
+                        <p class="desc">Device to test coagulation levels in blood for diabetics</p>
+                    </div>
+                </div>
+
+                <div class="project-slot"
+                    style="background-image: url('images/ods/ods.png');"
+                    onclick="window.location.href='ods.html'">
+
+                    <div class="slot-content">
+                        <h3 class="project-title">Object Detection System</h3>
+                        <p class="desc">Object detection system for visually impaired individuals</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-header">
+            <h3>Research Projects</h3>
+        </div>
+        <section class = "project-section">
+            <div class = "project-header" onclick="toggleSection(this)">
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="project-grid">
+                <div class="project-slot"
+                    style="background-image: url('images/eeg-sim/norm-eeg.png');"
+                    onclick="window.location.href='eeg_emg_sim.html'">
+
+                    <div class="slot-content">
+                        <h3 class="project-title">EEG/EMG Sim</h3>
+                        <p class="desc">Simulation of EEG and EMG signals to research different conditions</p>
+                    </div>
+                </div>
+
+                <!--
+                <div class="project-slot"
+                    onclick="window.location.href='blood_flow_sim.html'">
+
+                    <div class="slot-content">
+                        <h3 class="project-title"> Heart Blood Flow Sim</h3>
+                        <p class="desc">Simulation of blood flow through the heart for medical research</p>
+                    </div>
+                </div>
+                -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p style="color: white; text-align: center;">&copy; 2025 Robert Josephson. All rights reserved. Unathorized use or reproduction is prohibited.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
